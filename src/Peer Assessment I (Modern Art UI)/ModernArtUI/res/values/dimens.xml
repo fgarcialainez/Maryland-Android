@@ -1,0 +1,5 @@
+<resources>
+
+    <dimen name="shape_padding">2dp</dimen>
+
+</resources>

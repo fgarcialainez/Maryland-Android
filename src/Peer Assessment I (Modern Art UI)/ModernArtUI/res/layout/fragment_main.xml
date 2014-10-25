@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.fgarcialainez.modernartui.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout android:id="@+id/shapes_linear_layout"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_marginBottom="33dip">
+        
+	   	<LinearLayout android:layout_width="0px"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:orientation="vertical"
+	        android:background="@android:color/black">
+	        
+	   	    <View android:id="@+id/first_non_white_gray_view"
+	   	        android:layout_height="0px"
+	      		android:layout_width="match_parent"
+	      		android:layout_weight="1"
+	       	    android:layout_marginLeft="@dimen/shape_padding"
+	   		    android:layout_marginRight="@dimen/shape_padding"
+	       	    android:layout_marginTop="@dimen/shape_padding"
+	       	    android:layout_marginBottom="@dimen/shape_padding"
+	   			android:background="@color/first_non_white_gray_view_color"/>
+	   	    
+	   	    <View android:id="@+id/second_non_white_gray_view"
+	   	        android:layout_height="0px"
+	      		android:layout_width="match_parent"
+	      		android:layout_weight="1"
+	       	    android:layout_marginLeft="@dimen/shape_padding"
+	   		    android:layout_marginRight="@dimen/shape_padding"
+	       	    android:layout_marginTop="@dimen/shape_padding"
+	       	    android:layout_marginBottom="@dimen/shape_padding"
+	   			android:background="@color/second_non_white_gray_view_color"/>
+	   	    
+	    </LinearLayout>
+	    
+	  	<LinearLayout android:layout_width="0px"
+	        android:layout_height="match_parent"
+	        android:layout_weight="2"
+	        android:orientation="vertical"
+	        android:background="@android:color/black">
+	   	    
+	        <View android:id="@+id/third_non_white_gray_view"
+	            android:layout_height="0px"
+	      		android:layout_width="match_parent"
+	      		android:layout_weight="1"
+	       	    android:layout_marginLeft="@dimen/shape_padding"
+	   		    android:layout_marginRight="@dimen/shape_padding"
+	       	    android:layout_marginTop="@dimen/shape_padding"
+	       	    android:layout_marginBottom="@dimen/shape_padding"
+	   			android:background="@color/third_non_white_gray_view_color"/>
+	   	    
+	   	    <View android:layout_height="0px"
+	      		android:layout_width="match_parent"
+	      		android:layout_weight="1"
+	       	    android:layout_marginLeft="@dimen/shape_padding"
+	   		    android:layout_marginRight="@dimen/shape_padding"
+	       	    android:layout_marginTop="@dimen/shape_padding"
+	       	    android:layout_marginBottom="@dimen/shape_padding"
+	   			android:background="@color/first_white_gray_view_color"/>
+	   	    
+	   	    <View android:id="@+id/fourth_non_white_gray_view"
+	   	        android:layout_height="0px"
+	      		android:layout_width="match_parent"
+	      		android:layout_weight="1"
+	       	    android:layout_marginLeft="@dimen/shape_padding"
+	   		    android:layout_marginRight="@dimen/shape_padding"
+	       	    android:layout_marginTop="@dimen/shape_padding"
+	       	    android:layout_marginBottom="@dimen/shape_padding"
+	   			android:background="@color/fourth_non_white_gray_view_color"/>
+	       	  
+		</LinearLayout>
+		
+	</LinearLayout>
+	
+    <SeekBar android:id="@+id/seek_bar"
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"      
+        android:max="60"/>
+	
+</RelativeLayout>

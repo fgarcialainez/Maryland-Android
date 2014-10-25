@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <drawable name="actionbar_background">#4053AF</drawable>
+    
+    <color name="first_non_white_gray_view_color">#6978B3</color>
+    <color name="second_non_white_gray_view_color">#DF4C93</color>
+    <color name="third_non_white_gray_view_color">#A91722</color>
+    <color name="fourth_non_white_gray_view_color">#293B91</color>
+    
+    <color name="first_white_gray_view_color">#E6E6E6</color>
+    
+</resources>
