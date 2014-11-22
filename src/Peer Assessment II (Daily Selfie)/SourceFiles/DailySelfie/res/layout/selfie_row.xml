@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dip"
+    android:paddingLeft="15dip"
+    android:paddingTop ="5dip"
+    android:paddingBottom ="5dip"
+    android:orientation="horizontal">
+    <ImageView android:id="@+id/selfie_picture_image_view"
+        android:layout_width="@dimen/selfie_row_picture_width_height"
+        android:layout_height="@dimen/selfie_row_picture_width_height"/>
+    <TextView android:id="@+id/selfie_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/selfie_row_picture_width_height"
+        android:layout_marginLeft="15dip"
+        android:textSize="20sp"
+        android:gravity="center_vertical"/>
+</LinearLayout>
