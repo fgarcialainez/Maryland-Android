@@ -1,5 +1,5 @@
-Maryland-Android-1
-==================
+Maryland-Android
+================
 
 Programming Mobile Applications for Android Handheld Systems (University of Maryland, College Park)
 
